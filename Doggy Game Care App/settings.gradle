@@ -1,0 +1,2 @@
+rootProject.name='Doggy Care Game App Java'
+include ':app'
