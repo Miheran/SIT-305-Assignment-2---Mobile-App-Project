@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent">
+
+    <VideoView
+        android:id="@+id/openVideo"
+        android:layout_width="match_parent"
+        android:layout_height="354dp"
+        android:layout_centerVertical="true" />
+
+    <Button
+        android:id="@+id/homevideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="30dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="19dp"
+        android:onClick="homeFragment"
+        android:text="Home" />
+
+    <Button
+        android:id="@+id/runvideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="39dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:onClick="runFragment"
+        android:text="Video" />
+
+    <Button
+        android:id="@+id/btnPlay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="162dp"
+        android:layout_marginStart="162dp"
+        android:layout_marginTop="16dp"
+        android:text="Play"
+        android:textSize="18sp" />
+</RelativeLayout>
